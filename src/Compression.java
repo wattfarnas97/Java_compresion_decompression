@@ -13,7 +13,7 @@ public class Compression {
 	public static void main(String[] args) {
 		
 		
-		File directoryToZip = new File("C:\\Users\\FAROUK\\Desktop\\d");
+		File directoryToZip = new File("pathname");
         ArrayList<File> fileList = new ArrayList<File>();
 		try {
 			System.out.println("---Getting references to all files in: " + directoryToZip.getCanonicalPath());
